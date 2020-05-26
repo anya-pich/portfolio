@@ -9,11 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <section // first section
-      style={{
-        marginTop: `1rem`,
-      }}
-    >
+    <section>
       <div
         style={{
           backgroundColor: `rgba(94, 117, 153, 0.3)`,
@@ -40,7 +36,7 @@ const IndexPage = () => (
             flex: `1 300px`,
           }}
         >
-          <p>Hello, thanks for stopping by!</p>
+          <p>Thanks for stopping by!</p>
           <p>
             I'm building this website as a pretext to learn and play around with
             Gatsby and GraphQL - and in order to have a place to showcase my

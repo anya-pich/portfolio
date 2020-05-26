@@ -647,6 +647,10 @@ footer a :hover {
 	color: #FFE552;
 }
 
+section {
+  margin-top: 1rem;
+}
+
 @media (min-width: 769px) {
 	header,
 	footer,
