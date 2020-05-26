@@ -1,8 +1,8 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 // import { css } from "@emotion/core"
 // import { rhythm } from "../utils/typography"
-import Layout from "../components/layout"
+import Layout from "../../components/layout"
 
 export default function Home({ data }) {
   console.log(data)
@@ -20,19 +20,27 @@ export default function Home({ data }) {
         <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <h3
-							style={{
-								marginBottom: "5px",
-							}}
+            <Link
+              to={node.fields.slug}
+              style={{
+                textDecoration: `none`,
+                color: `inherit`,
+              }}
             >
-              {node.frontmatter.title}{" "}
-              <span
-                style={{color: `#bbb`}}
+              <h3
+                style={{
+                  marginBottom: "5px",
+                }}
               >
-                — {node.frontmatter.date}
-              </span>
-            </h3>
-            <p>{node.excerpt}</p>
+                {node.frontmatter.title}{" "}
+                <span
+                  style={{color: `#bbb`}}
+                >
+                  — {node.frontmatter.date}
+                </span>
+              </h3>
+              <p>{node.excerpt}</p>
+            </Link>
           </div>
         ))}
       </div>
@@ -50,6 +58,9 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
           }
           excerpt
         }
