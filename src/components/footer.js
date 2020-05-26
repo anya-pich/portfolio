@@ -5,12 +5,11 @@ import {
   IoLogoLinkedin,
   IoMdSchool,
 } from "react-icons/io"
-import {Link} from 'gatsby'
+import { Link } from "gatsby"
 
 const Footer = () => {
-
   return (
-		<footer>
+    <footer>
       <nav
         style={{
           display: `flex`,
@@ -39,9 +38,15 @@ const Footer = () => {
           <IoIosMail />
         </Link>
       </nav>
-			© {new Date().getFullYear()}, Built with
-			{` `}
-			<a href="https://www.gatsbyjs.org">Gatsby</a>
+      <div className="subtext" style={{ textAlign: `center` }}>
+        © {new Date().getFullYear()}, Built with
+        <a
+          style={{ fontSize: `1em`, display: `inline` }}
+          href="https://www.gatsbyjs.org"
+        >
+          Gatsby
+        </a>
+      </div>
     </footer>
   )
 }
