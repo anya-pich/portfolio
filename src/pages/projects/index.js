@@ -1,25 +1,24 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-// import { css } from "@emotion/core"
-// import { rhythm } from "../utils/typography"
 import Layout from "../../components/layout"
 
 export default function Home({ data }) {
   console.log(data)
   return (
     <Layout>
-      <div>
-        <h1
-					style={{
-						display: `inline-block`,
-						borderBottom: `1px solid`,
-					}}
-        >
-          Amazing Pandas Eating Things
-        </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+      <div
+        style={{
+          padding: `2rem`,
+        }}
+      >
+        <h4>{data.allMarkdownRemark.totalCount} Projects</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
+          <div
+            style={{
+              margin: `3rem 0`,
+            }}
+            key={node.id}
+          >
             <Link
               to={node.fields.slug}
               style={{
@@ -33,13 +32,17 @@ export default function Home({ data }) {
                 }}
               >
                 {node.frontmatter.title}{" "}
-                <span
-                  style={{color: `#bbb`}}
-                >
-                  — {node.frontmatter.date}
-                </span>
+                <span style={{ color: `#bbb` }}>— {node.frontmatter.date}</span>
               </h3>
-              <p>{node.excerpt}</p>
+              <p
+                style={{
+                  fontFamily: `PT Sans`,
+                  fontSize: `1rem`,
+                  lineHeight: `1.7rem`,
+                }}
+              >
+                {node.excerpt}
+              </p>
             </Link>
           </div>
         ))}

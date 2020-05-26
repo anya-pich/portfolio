@@ -7,7 +7,8 @@ export default function MyFiles({ data }) {
   return (
     <Layout>
       <div>
-        <h1>My Site's Files</h1>
+        <h3>There's nothing here yet, please check back soon!</h3>
+        {/* <h1>My Site's Files</h1>
         <table>
           <thead>
             <tr>
@@ -27,7 +28,7 @@ export default function MyFiles({ data }) {
               </tr>
             ))}
           </tbody>
-        </table>
+        </table> */}
       </div>
     </Layout>
   )

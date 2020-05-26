@@ -30,7 +30,6 @@ const IndexPage = () => (
         />
         <div
           style={{
-            flex: 1,
             fontFamily: `PT Sans`,
             lineHeight: `1.5rem`,
             flex: `1 300px`,
