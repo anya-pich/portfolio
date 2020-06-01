@@ -615,6 +615,8 @@ pre tt:after {
   content: "";
 }
 
+/* custom CSS */
+
 a {
   text-decoration: none;
 }
@@ -647,6 +649,24 @@ section {
   margin-top: 1rem;
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-family: Oswald;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: -0.02em;
+  color: #FFE552;
+  left: 120px;
+  margin: 50px 0 10px 0;
+}
+
 @media (min-width: 769px) {
   header,
   footer,
@@ -655,15 +675,23 @@ section {
     margin: 0 auto;
     max-width: 1150px;
   }
+
+
 }
 
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
-}
-@media (min-width: 769px) {
-  main {
-    width: 80%;
+
+  .logo {
+    font-size: 2rem;
   }
+
+  header {
+    padding: 1rem;
+  }
+
+
+
 }

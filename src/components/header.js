@@ -5,27 +5,10 @@ import React from "react"
 import { IoIosEye, IoIosPaper, IoIosChatbubbles } from "react-icons/io"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      display: `flex`,
-      justifyContent: `space-between`,
-      alignItems: "flex-end",
-      marginBottom: `2em`,
-    }}
-  >
+  <header>
     <div>
       <Link to="/">
-        <h1
-          style={{
-            fontFamily: `Oswald`,
-            fontWeight: `bold`,
-            fontSize: `60px`,
-            letterSpacing: `-0.02em`,
-            color: `#FFE552`,
-            left: `120px`,
-            margin: `50px 0 10px 0`,
-          }}
-        >
+        <h1 className="logo">
           ANNA PICHUGINA —
         </h1>
       </Link>
