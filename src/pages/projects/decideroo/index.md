@@ -1,6 +1,7 @@
 ---
 title: "DecideRoo"
 date: "2020-05-25"
+posttype: "project"
 ---
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=sDEL4Ty950Q" target="_blank"><img src="http://img.youtube.com/vi/sDEL4Ty950Q/0.jpg" 

@@ -649,6 +649,10 @@ section {
   margin-top: 1rem;
 }
 
+main {
+  padding-top: 2rem;
+}
+
 header{
   display: flex;
   justify-content: space-between;

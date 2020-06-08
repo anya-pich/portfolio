@@ -1,6 +1,7 @@
 ---
 title: "WayFarer"
 date: "2020-05-25"
+posttype: "project"
 ---
 
 [Wayfarer Website](https://sheltered-thicket-24218.herokuapp.com/)

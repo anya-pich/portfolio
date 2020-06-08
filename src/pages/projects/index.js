@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../../components/layout"
 
-export default function Home({ data }) {
+export default function Projects({ data }) {
   console.log(data)
   return (
     <Layout>
@@ -53,14 +53,17 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: {posttype: { eq: "project" }}}
+    ) {
       totalCount
       edges {
         node {
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "MMMM, YYYY")
           }
           fields {
             slug
