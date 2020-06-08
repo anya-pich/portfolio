@@ -11,11 +11,11 @@ const Footer = () => {
   return (
     <footer>
       <nav
-        style={{
-          display: `flex`,
-          margin: `2em auto`,
-          justifyContent: `center`,
-        }}
+        // style={{
+        //   display: `flex`,
+        //   margin: `2em auto`,
+        //   justifyContent: `center`,
+        // }}
       >
         <a
           href="https://www.linkedin.com/in/anna-pich/"

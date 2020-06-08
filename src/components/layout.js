@@ -18,20 +18,9 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div
-      style={{
-        display: `flex`,
-        flexDirection: `column`,
-        minHeight: `100vh`,
-      }}
-    >
+    <div className="container">
       <Header siteTitle={data.site.siteMetadata.title} />
-      <main
-        style={{
-          flex: `1`,
-          margin: `0 auto`,
-        }}
-      >
+      <main>
         {children}
       </main>
       <Footer />

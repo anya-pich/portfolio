@@ -6,32 +6,32 @@ import { IoIosEye, IoIosPaper, IoIosChatbubbles } from "react-icons/io"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div>
+    <div className="logo-container">
       <Link to="/">
-        <h1 className="logo">
+        <h1 className="logo-text">
           ANNA PICHUGINA —
         </h1>
       </Link>
-      <span className="subtext">
+      <span className="logo-subtitle">
         software engineer, architect, campfire enthusiast
       </span>
     </div>
     <nav
       style={{
-        display: `flex`,
+        // display: `flex`,
       }}
     >
-      <Link className="icon" to="/projects">
-        <IoIosEye />
-        <span className="subtext">PROJECTS</span>
+      <Link className="nav-set" to="/projects">
+        <IoIosEye className="nav-icon" />
+        <span className="nav-label">PROJECTS</span>
       </Link>
-      <Link className="icon" to="/articles">
-        <IoIosPaper />
-        <span className="subtext">WRITINGS</span>
+      <Link className="nav-set" to="/articles">
+        <IoIosPaper className="nav-icon" />
+        <span className="nav-label">WRITINGS</span>
       </Link>
-      <Link className="icon" to="/contact">
-        <IoIosChatbubbles />
-        <span className="subtext">CONTACT</span>
+      <Link className="nav-set" to="/contact">
+        <IoIosChatbubbles className="nav-icon" />
+        <span className="nav-label">CONTACT</span>
       </Link>
     </nav>
   </header>

@@ -22,7 +22,7 @@ const IndexPage = () => (
         <img
           src={collage}
           alt="anna pichugina collage"
-          class="collage"
+          className="collage"
         />
         <div
           style={{
