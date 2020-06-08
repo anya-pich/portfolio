@@ -40,4 +40,12 @@ footer a :focus {
     margin: 0 auto;
     max-width: 1150px;
   }
+
+  .collage {
+    margin: -3rem 2rem -3rem -3rem;
+    max-width: 60%;
+    height: auto;
+    width: auto;
+    flex: 1 300px;
+  }
 }

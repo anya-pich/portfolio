@@ -22,11 +22,7 @@ const IndexPage = () => (
         <img
           src={collage}
           alt="anna pichugina collage"
-          style={{
-            margin: `-3rem 2rem -3rem -3rem`,
-            maxWidth: `60%`,
-            flex: `1 300px`,
-          }}
+          class="collage"
         />
         <div
           style={{
