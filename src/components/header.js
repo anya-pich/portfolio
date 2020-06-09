@@ -7,7 +7,7 @@ import { IoIosEye, IoIosPaper, IoIosChatbubbles } from "react-icons/io"
 const Header = ({ siteTitle }) => (
   <header>
     <div>
-      <Link to="/">
+      <Link to="/" className="no-underline">
         <h1 className="logo">
           ANNA PICHUGINA —
         </h1>
@@ -21,15 +21,15 @@ const Header = ({ siteTitle }) => (
         display: `flex`,
       }}
     >
-      <Link className="icon" to="/projects">
+      <Link className="icon no-underline" to="/projects">
         <IoIosEye />
         <span className="subtext">PROJECTS</span>
       </Link>
-      <Link className="icon" to="/articles">
+      <Link className="icon no-underline" to="/articles">
         <IoIosPaper />
         <span className="subtext">WRITINGS</span>
       </Link>
-      <Link className="icon" to="/contact">
+      <Link className="icon no-underline" to="/contact">
         <IoIosChatbubbles />
         <span className="subtext">CONTACT</span>
       </Link>

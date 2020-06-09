@@ -2,7 +2,7 @@
 title: "HouseWerk"
 date: "2020-04-20"
 posttype: "project"
-
+summary: "Django, HTML templating, Python, PostgreSQL, Heroku"
 ---
 
 ## Design inspiration

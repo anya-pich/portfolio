@@ -41,7 +41,7 @@ export default function Projects({ data }) {
                   lineHeight: `1.7rem`,
                 }}
               >
-                {node.excerpt}
+                {node.frontmatter.summary}
               </p>
             </Link>
           </div>
@@ -63,6 +63,7 @@ export const query = graphql`
           id
           frontmatter {
             title
+            summary
             date(formatString: "MMMM, YYYY")
           }
           fields {
