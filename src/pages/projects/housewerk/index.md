@@ -5,34 +5,59 @@ posttype: "project"
 summary: "Django, HTML templating, Python, PostgreSQL, Heroku"
 ---
 
-## Design inspiration
+Web platform for managing chores in households. Team project built with Django, Bootstrap and PostgreSQL. It is mostly functional, with some chore management functionality on the front end still needing work to reach MVP stage.
 
-[The School of Life](www.theschooloflife.com)
+## Links
 
-### Colors
+* [GitHub](https://github.com/anya-pich/housewerk)
+* [Deployed](https://immense-temple-95604.herokuapp.com/)
+	* demo login as pat, password patterns 
 
-Color palette adapted from [thenordics.com](https://www.thenordics.com/tool/color-nordic-yellow)
+## Motivation
 
-Because Nordic values resonate with me! Here's some from the same website:
+This project was created to make it easy for households to look after their homes together. Using this responsive platform, housemates or families are able to set up a group for their home, add weekly chores, and track their progress online.
 
-- Openness and a belief in everyone's right to express their opinions.
-- Trust in each other and also, because of proximity to power, trust in leaders in society.
-- New ways of thinking, focusing, creativity and innovations.
-- Sustainable management og the environment and development of natural resources.
-- Compassion, tolerance, and conviction about equal value of all people.
+## Design
 
-### Typography
+![Wireframe of home screen](wire2.png)
 
-[HelloHappy](http://hellohappy.org/beautiful-web-type/)
+![Wireframe of chores screen](wire3.png)
 
-### Icons
+![Wireframe of group screen](wire4.png)
 
-[React-icons npm package](https://github.com/react-icons/react-icons)
+![ERD](ERD.jpg)
 
-### Splash image
+## Screenshots
 
-Inspired by [Medium landing](https://medium.com/about)
+![Home screen](home.png)
 
-## Tech stack
+![About screen](about.png)
 
-Gatsby & front-end GraphQL generating React posts & routes from MarkDown documents
+![User home screen](main.png)
+
+![User profile](user-profile.png)
+
+![Group admin screen](group-admin.png)
+
+![Group member screen](group.png)
+
+
+## Build Status
+
+The site is mostly functional and deployed. Some work on the front end is still required to achieve usable MVP.
+
+#### Functional features:
+* User and admin user CRUD
+* Create and manage user groups
+* Create and assign chores
+
+#### To do:
+* Completing chores
+* Chores to automatically rotate to a different user every time period
+
+## Tech used
+
+* Bootstrap
+* Django
+* PostgreSQL
+* Python

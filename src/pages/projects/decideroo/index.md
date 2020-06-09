@@ -8,6 +8,12 @@ summary: "React hooks, Bootstrap, Express, MongoDB, Heroku"
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=sDEL4Ty950Q" target="_blank"><img src="http://img.youtube.com/vi/sDEL4Ty950Q/0.jpg" 
 alt="jump to conclusions mat from office space" width="240" height="180" border="10" /></a>
 
+#### Links: 
+
+* [GitHub front end](https://github.com/anya-pich/DecideRoo)
+* [GitHub back end](https://github.com/anya-pich/decideroo-backend)
+* [Deployed](https://decideroo.herokuapp.com/)
+
 ## Scope
 
 A simple set of tools to facilitate the decision-making process for indecisive individuals like myself. There will be three tools that can be interchangeably be used to examine each decision to be made:
@@ -52,9 +58,3 @@ A simple set of tools to facilitate the decision-making process for indecisive i
 - Animate the roo
 - Follow-up on decision outcomes
 - Other decision-making tools
-
-## Project links
-
-[GitHub front end](https://github.com/anya-pich/DecideRoo)
-
-[GitHub back end](https://github.com/anya-pich/decideroo-backend)
