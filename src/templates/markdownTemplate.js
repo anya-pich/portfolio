@@ -8,7 +8,7 @@ export default function Template({ data }) { // injected by graphql query below
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
-      <div className="post-container">
+      <div className="container">
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>

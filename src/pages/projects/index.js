@@ -6,11 +6,7 @@ export default function Projects({ data }) {
   console.log(data)
   return (
     <Layout>
-      <div
-        style={{
-          padding: `2rem`,
-        }}
-      >
+      <div className="container">
         <h4>{data.allMarkdownRemark.totalCount} Projects</h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div
@@ -55,7 +51,7 @@ export const query = graphql`
   query {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: {posttype: { eq: "project" }}}
+      filter: { frontmatter: { posttype: { eq: "project" } } }
     ) {
       totalCount
       edges {

@@ -5,56 +5,54 @@ posttype: "project"
 summary: "React hooks, Bootstrap, Express, MongoDB, Heroku"
 ---
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=sDEL4Ty950Q" target="_blank"><img src="http://img.youtube.com/vi/sDEL4Ty950Q/0.jpg" 
-alt="jump to conclusions mat from office space" width="240" height="180" border="10" /></a>
-
-#### Links: 
+A React solo project aiming to provide a set of interactive tools for working through the decision making process. This is a work in progress, with one working tool and two further tools in the works.
 
 * [GitHub front end](https://github.com/anya-pich/DecideRoo)
 * [GitHub back end](https://github.com/anya-pich/decideroo-backend)
-* [Deployed](https://decideroo.herokuapp.com/)
+* [Deployed](https://decideroo.herokuapp.com/) | demo login: pat@email.com p: pattern5
 
-## Scope
+## Motivation
 
-A simple set of tools to facilitate the decision-making process for indecisive individuals like myself. There will be three tools that can be interchangeably be used to examine each decision to be made:
+Decisions can be hard! There are decision-making models out there but no easily available tools to help people apply them in their daily lives. The MVP will offer three tools that can be interchangeably be used to examine each decision to be made:
 
-1. Jump to Conclusions - think angry birds featuring a kangaroo that lands at random on one of your options.
+1. Jump to Conclusions - analyse your problem by writing it out and brainstorming your options. This tool will pick an option at random and give you an option to accept the chosen option or pick again.
 2. 6 hats - consider your conundrum from 6 different perspectives, drag & drop your decision options to what you think each perspective might endorse, and optionally discuss each perspective.
 3. Long-form analysis - this one will give you tools and options to dig deeper into your problem definition, context and compare and contrast decision options using weighting scales.
 
-## User stories
+## Screenshots
 
-- AAU I should at minimum be able to enter the decision I'm trying to make and the options I'm considering, then work through a tool or two before deciding if I want to set up an account and store this information or to obliterate it for ever or to download it as a pdf for my own private record.
+![Sign up screen](sign-up.png)
 
-- AAU I should be able to get help and additional tools for each step of the way, like defining my decision, figuring out what my deadline is, what my options are etc.
+![Form validation](form-validation.png)
 
-- AAU I should be able to carry over the decision options I'm considering from one tool to the next.
+![Create decision screen](create-decision.png)
 
-- As a registered user I should be able to create multiple decisions and switch between them.
+![Random selector](jump-to.png)
 
-- As a registered user with saved decisions that have been made I should have the option to reflect on them post-factum.
+## Features
 
-## Milestones
+* Custom React hooks for form input processing & validation
+* User authentication with form validation on both front & back ends
+* Custom animated accordion component
 
-#### Dev features completed
+#### To do:
 
-- User authentication with form validation
-- Jump to conclusions route works
-- Dilemmas can be created, edited and deleted
-- Options for each dilemma can be created, edited and deleted
-
-#### Dev features to complete before production
-
-- User registration & login
-- Saving decisions & commenting on past decisions
 - UI revamp
 - Debug jump to conclusions route
 - Build Six Hats route
 - Build detailed analysis route
 - Implement local storage so that tools can be used without loggin in
 
-#### Future features
-
+#### Future features:
 - Animate the roo
 - Follow-up on decision outcomes
 - Other decision-making tools
+
+## Tech used
+
+* React
+* JavaScript, HTML, CSS
+* Bootstrap
+* MongoDB
+* Express
+* Node

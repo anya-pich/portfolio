@@ -7,9 +7,9 @@ summary: "MongoDB, Express, React, NodeJS, deployed to Heroku"
 
 A travel community for users to share tips (AKA posts) about their favorite locations around the world. 
 
-* [Deployed site](https://sheltered-thicket-24218.herokuapp.com/)
 * [Front end repo](https://github.com/longevitytina/Wayfarer)
 * [Back end repo](https://github.com/longevitytina/Wayfarer-backend)
+* [Deployed site](https://sheltered-thicket-24218.herokuapp.com/) | demo login: cat@email.com p: cat
 
 ## Client brief
 
@@ -21,7 +21,7 @@ The team were given a wireframe and client brief consisting of three core sprint
 
 ![Home screen](home.png)
 
-Register or sign-in with prepopulated data - login: cat@email.com pw: cat
+Register or sign-in with prepopulated data
 
 Select a city from the sidebar
 
@@ -52,7 +52,7 @@ Edit/delete post if the post was created by current user
 - [Elizabeth Patton](https://github.com/eapatton)
 - [Tina Taylor](https://github.com/longevitytina)
 
-## Technologies used
+## Tech used
 #### The MERN Javascript stack:
 
 - [MongoDB](https://www.mongodb.com/) - Database

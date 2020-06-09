@@ -7,11 +7,8 @@ summary: "Django, HTML templating, Python, PostgreSQL, Heroku"
 
 Web platform for managing chores in households. Team project built with Django, Bootstrap and PostgreSQL. It is mostly functional, with some chore management functionality on the front end still needing work to reach MVP stage.
 
-## Links
-
 * [GitHub](https://github.com/anya-pich/housewerk)
-* [Deployed](https://immense-temple-95604.herokuapp.com/)
-	* demo login as pat, password patterns 
+* [Deployed](https://immense-temple-95604.herokuapp.com/) | demo login: pat p: patterns
 
 ## Motivation
 

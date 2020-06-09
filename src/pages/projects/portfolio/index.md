@@ -38,16 +38,19 @@ This is a work in progress. Please report any bugs and suggestions [here](http:/
 * Improve responsive design
 * Add about page
 * Add code snippets
+* Add article discussing Gatsby usage
 
-#### Tech Used:
-* [Gatsby](https://www.gatsbyjs.org/)
-* [GraphQL](https://graphql.org/)
-* [React](https://reactjs.org/)
-* [React-icons](https://github.com/react-icons/react-icons)
-* JavaScript, JSX, CSS
 
 #### Design Inspiration:
 * [Splash image](https://medium.com/about)
 * [Typography](http://hellohappy.org/beautiful-web-type/)
 * [Colors](https://www.thenordics.com/tool/color-nordic-yellow)
 * [Design](www.theschooloflife.com)
+
+## Tech Used
+
+* [Gatsby](https://www.gatsbyjs.org/)
+* [GraphQL](https://graphql.org/)
+* [React](https://reactjs.org/)
+* [React-icons](https://github.com/react-icons/react-icons)
+* JavaScript, JSX, CSS
