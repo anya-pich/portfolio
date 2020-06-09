@@ -651,7 +651,7 @@ footer a {
   margin-left: 15px;
 }
 
-.icon :hover,
+.icon:hover > *,
 footer a :hover {
   color: #ffe552;
 }

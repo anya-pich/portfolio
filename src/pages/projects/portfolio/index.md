@@ -33,14 +33,14 @@ Working on this project made me realize just how much I'd come to rely on Bootst
 
 This is a work in progress. Please report any bugs and suggestions [here](http://annapi.ch/contact).
 
-To do:
+#### To Do:
 * Refactor CSS for clarity and efficiency
 * Improve responsive design
 * Add about page
 
-### Tech Used & Credits
-
+#### Tech Used:
 * [Gatsby](https://www.gatsbyjs.org/)
+* [GraphQL](https://graphql.org/)
 * [React](https://reactjs.org/)
 * [React-icons](https://github.com/react-icons/react-icons)
 * JavaScript, JSX, CSS

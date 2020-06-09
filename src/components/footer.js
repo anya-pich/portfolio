@@ -39,13 +39,7 @@ const Footer = () => {
         </Link>
       </nav>
       <div className="subtext" style={{ textAlign: `center` }}>
-        © {new Date().getFullYear()}, Built with
-        <a
-          style={{ fontSize: `1em`, display: `inline` }}
-          href="https://www.gatsbyjs.org"
-        >
-          Gatsby
-        </a>
+        © {new Date().getFullYear()} Anna Pichugina
       </div>
     </footer>
   )
