@@ -37,6 +37,7 @@ This is a work in progress. Please report any bugs and suggestions [here](http:/
 * Refactor CSS for clarity and efficiency
 * Improve responsive design
 * Add about page
+* Add code snippets
 
 #### Tech Used:
 * [Gatsby](https://www.gatsbyjs.org/)

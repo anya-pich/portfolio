@@ -5,20 +5,21 @@ posttype: "project"
 summary: "MongoDB, Express, React, NodeJS, deployed to Heroku"
 ---
 
-[Wayfarer Website](https://sheltered-thicket-24218.herokuapp.com/)
+A travel community for users to share tips (AKA posts) about their favorite locations around the world. 
 
-A travel community for users to share tips (AKA posts) about their favorite locations around the world. The team simulated a commisioned client contract to build, based on the client's wireframe and user stories. The client contract consists of three core sprints and four bonus sprints.
+* [Deployed site](https://sheltered-thicket-24218.herokuapp.com/)
+* [Front end repo](https://github.com/longevitytina/Wayfarer)
+* [Back end repo](https://github.com/longevitytina/Wayfarer-backend)
 
-## Index
+## Client brief
 
-- [Authors](#The-Team)
-- [Scope](#scope)
-- [User Stories](./user-stories.md)
-- [Wireframes](./wireframes.png)
+The team were given a wireframe and client brief consisting of three core sprints and four bonus sprints. We collaborated with the client to clarify aspects of the brief, propose additional features and obtain design approval at each sprint.
 
-## Getting Started
+![Site wireframe](wireframes.png)
 
-- Register or sign-in with prepopulated data - login: tt@gmail.com PW: 1234
+## User flow
+
+- Register or sign-in with prepopulated data - login: cat@email.com pw: cat
 - Select a city from the sidebar,
   - Browse through list of post teasers, or create a post for the city
   - Click on a post to read more
@@ -28,18 +29,14 @@ A travel community for users to share tips (AKA posts) about their favorite loca
   - Edit profile information
   - View index of posts made and click them to view more
 
-## The-Team (of kick-ass women)
+## The Team (of kick-ass women)
 
-- **Anya Pichugina** - [Github](https://github.com/anya-pich) - [Linkedin](https://www.linkedin.com/in/anna-pich/)
-- **Elizabeth Patton** - [Github](https://github.com/eapatton) - [Linkedin](https://www.linkedin.com/in/elizabeth-a-patton/)
-- **Tina Taylor** - [Github](https://github.com/longevitytina) - [Linkedin](https://www.linkedin.com/in/tina-taylor-codes/)
+- [Anna Pichugina](https://github.com/anya-pich)
+- [Elizabeth Patton](https://github.com/eapatton)
+- [Tina Taylor](https://github.com/longevitytina)
 
-## Scope
-
-[User Stories](./user-stories.md)
-[Wireframes](./wireframes.png)
-
-##### Technologies used: The MERN Javascript stack
+## Technologies used
+#### The MERN Javascript stack:
 
 - [MongoDB](https://www.mongodb.com/) - Database
 - [Express](https://expressjs.com/) - Web framework
