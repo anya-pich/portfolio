@@ -19,15 +19,32 @@ The team were given a wireframe and client brief consisting of three core sprint
 
 ## User flow
 
-- Register or sign-in with prepopulated data - login: cat@email.com pw: cat
-- Select a city from the sidebar,
-  - Browse through list of post teasers, or create a post for the city
-  - Click on a post to read more
-    - View an author's profile by clicking their name near the post title
-    - Edit/delete post if the post was created by current user
-- View personal profile by clicking the link in the navbar
-  - Edit profile information
-  - View index of posts made and click them to view more
+![Home screen](home.png)
+
+Register or sign-in with prepopulated data - login: cat@email.com pw: cat
+
+Select a city from the sidebar
+
+![City page](city-page.png)
+
+Browse through list of post teasers, or create a post for the city
+
+![Create post](add-post.png)
+
+Click on a post to read more
+
+![Post view](post-unauth.png)
+
+View an author's profile by clicking their name near the post title
+
+![Profile view](profile-posts.png)
+
+Edit/delete post if the post was created by current user
+
+![Post view logged in](post-auth.png)
+
+![Post edit screen](post-edit.png)
+
 
 ## The Team (of kick-ass women)
 
